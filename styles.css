@@ -109,7 +109,7 @@ h1 {
 
   &:hover,
   &:focus {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(69, 168, 39, 0.4);
     color: white;
     box-shadow: none;
   }
