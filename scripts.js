@@ -109,7 +109,7 @@ function createDb() {
   request.onupgradeneeded = (e) => {
     db = e.target.result;
     console.log("openDb.onupgradeneeded");
-    var store = evt.currentTarget.result.createObjectStore(DB_STORE_NAME, {
+    var store = e.currentTarget.result.createObjectStore(DB_STORE_NAME, {
       keyPath: "id",
       autoIncrement: true,
     });
